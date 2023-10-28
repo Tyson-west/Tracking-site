@@ -12,7 +12,7 @@ html{
 }
 @font-face {
     font-family: FONTS;
-    src: url(/fonts/Barlow/Barlow-Regular.ttf);
+    src: url(fonts/Barlow/Barlow-Regular.ttf);
 }
 
 body{
@@ -117,7 +117,7 @@ header * p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background:linear-gradient(rgba(114, 113, 113, 0.382), rgba(91, 90, 90, 0.295)), url(/images/pexels-tima-miroshnichenko-6169660.jpg);
+    background:linear-gradient(rgba(114, 113, 113, 0.382), rgba(91, 90, 90, 0.295)), url(images/pexels-tima-miroshnichenko-6169660.jpg);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background-size: cover;
