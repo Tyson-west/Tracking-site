@@ -103,9 +103,7 @@ header * p{
     text-decoration: underline;
   }
 
-  #service-link{
-    /* margin-left: 80%; */
-  }
+ 
 
   #location-link{
     display: none;
@@ -140,13 +138,14 @@ header * p{
     justify-content: center;
   }
   .track-input{
-    width: 50%;
+    width: 40%;
     padding: 15px ;
     border-radius: 5px;
     color: white;
   }
 form > button{
     padding: 12px;
+    width: 85px;
     background-color: #EE4036;
     border-radius: 5px;
     margin-left: 10px;
@@ -231,8 +230,8 @@ form > button{
 .fa {
    
     padding: 12px;
-    font-size: 20px;
-    width: 40px;
+    font-size: 10px;
+    width: 35px;
     aspect-ratio: 1;
     text-align: center;
     text-decoration: none;
@@ -322,11 +321,13 @@ form > button{
       form input{
         padding: 10px;
         height: 25px;
+        width: 50%;
       }
 
       form > button{
         padding: 8px;
         /* height: 25px; */
+        width: 65px;
       }
       .footer-container {
         flex-direction: column;
