@@ -12,7 +12,7 @@ html{
 }
 @font-face {
     font-family: FONTS;
-    src: url(./fonts/Barlow/Barlow-Regular.ttf);
+    src: url(/fonts/Barlow/Barlow-Regular.ttf);
 }
 
 body{
@@ -117,7 +117,7 @@ header * p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background:linear-gradient(rgba(114, 113, 113, 0.382), rgba(91, 90, 90, 0.295)), url(./images/pexels-tima-miroshnichenko-6169660.jpg);
+    background:linear-gradient(rgba(114, 113, 113, 0.382), rgba(91, 90, 90, 0.295)), url(/images/pexels-tima-miroshnichenko-6169660.jpg);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background-size: cover;
@@ -159,6 +159,76 @@ form > button{
     display: none; /* Initially hide the button on larger screens */
   }
 
+  .shipping{
+    width: 100%;
+    background: rgb(224, 213, 213);
+    padding-block:25px ;
+  }
+
+  .ship-title{
+    text-align: center;
+  }
+
+  .ship-title h1{
+    color: #EE4036;
+    font-size: 45px;
+    font-weight: 900;
+  }
+
+  .ship-title p {
+    color: black;
+    font-size: 25px;
+  }
+
+  .shipping-categories{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .document-shipping{
+    display: grid;
+    padding: 10px;
+    margin-block: 10px;
+    width: 50%;
+    /* background-color: green; */
+    text-align: center;
+    box-shadow: 0 0 .1em .1em gray ;
+    border-radius: 5px;
+    gap: 30px;
+    transition: transform 400ms;
+  }
+
+  .document-shipping:hover{
+    transform: scale(1.05);
+  }
+
+  .description{
+    margin-block: 15px;
+  }
+
+  .description h3{
+    color: #EE4036;
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .description p{
+    color: black;
+  }
+
+  .image-description{
+    background-color: transparent;
+    
+    
+  }
+  .image-description > img{
+    width:100% ;
+    border-radius: 8px;
+    display: inline-block;
+    align-items: end;
+  }
 
 /* foooter CSS */
   footer {
@@ -262,7 +332,9 @@ form > button{
     color: white;
   }
 
-
+  .copyright{
+    margin: 10px ;
+  }
 
 
   /* Create a responsive navigation for small screens (e.g., mobile devices) */
@@ -334,6 +406,23 @@ form > button{
         /* height: 25px; */
         width: 65px;
       }
+
+      .shipping-categories{
+        width: 100%;
+        flex-direction: column;
+      }
+
+      .document-shipping{
+        width: 80%;
+        margin: 10px auto;
+        /* background-color: green; */
+      }
+
+      .image-description img{
+        width:100% ;
+      }
+
+
       .footer-container {
         flex-direction: column;
         text-align: center;
