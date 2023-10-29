@@ -16,7 +16,8 @@ html{
 }
 
 body{
-    font-family: FONTS;
+/*     font-family: FONTS; */
+    font-family: 'Barlow', sans-serif;
     background-color: black;
     font-weight: bold;
 }
